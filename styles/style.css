@@ -9,7 +9,7 @@
 :root{
     --color-primario:#000000;
     --color-secundario:#f6f6f6;
-    --color-terciario:#22d4fd;
+    --color-terciario:#004aad;
 
     --fuente-montserrat:'Montserrat', sans-serif;
     --fuente-krona:'Krona One', sans-serif;
@@ -39,13 +39,12 @@ body{
     text-decoration: none;
 }
 
-
 .titulo-destaque {
     color: var(--color-terciario); ;
 }
 
 .presentacion {
-    padding: 3% 15%;
+    padding: 1% 6%; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +55,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding-right: 5%;
 }
 
 .presentacion__contenido__titulo{
@@ -108,7 +106,7 @@ body{
 footer{
     background-color: var(--color-terciario);
     padding: 24px;
-    color: var(--color-primario);
+    color: var(--color-secundario);
     text-align: center;
     font-family: var(--fuente-montserrat);
     font-size: 24px;
