@@ -23,20 +23,25 @@ body{
 
 .header{
     padding: 2% 0% 0% 15%;
-    
+    background-color: var(--color-terciario);
 }
 
 .header__menu{
     display: flex;
     gap: 80px;
+    padding-bottom: 1.5%;
 }
 
 .header__menu__link{
     font-family: var(--fuente-montserrat);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--color-terciario);
+    color: var(--color-secundario);
     text-decoration: none;
+}
+
+.header__menu__link:hover{
+    color: #272727;
 }
 
 .titulo-destaque {
